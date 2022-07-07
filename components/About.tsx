@@ -15,7 +15,7 @@ const About: NextPage = () => {
   return (
     <div style={style.about}>
       <Typography level="h1">
-        Hi, I'm{" "}
+        {"Hi, I'm "}
         <Typography level="h1" color="primary" textColor="primary">
           Akansh.
         </Typography>
