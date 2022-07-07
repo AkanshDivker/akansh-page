@@ -10,6 +10,7 @@ import Sheet from "@mui/joy/Sheet";
 import Typography from "@mui/joy/Typography";
 import type { NextPage } from "next";
 import React from "react";
+import ModeToggle from "./ModeToggle";
 
 const ToolsMenu: NextPage = () => {
   const [anchorEl, setAnchorEl] = React.useState<
@@ -108,6 +109,9 @@ const Navbar: NextPage = () => {
         </ListItem>
         <ListItem role="none">
           <ToolsMenu />
+        </ListItem>
+        <ListItem role="none">
+          <ModeToggle />
         </ListItem>
       </List>
     </Box>
