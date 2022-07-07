@@ -1,8 +1,9 @@
-import React from "react";
-import { useColorScheme } from "@mui/joy/styles";
 import Button from "@mui/joy/Button";
+import { useColorScheme } from "@mui/joy/styles";
+import type { NextPage } from "next";
+import React from "react";
 
-const ModeToggle = () => {
+const ModeToggle: NextPage = () => {
   const { mode, setMode } = useColorScheme();
   const [mounted, setMounted] = React.useState(false);
 
