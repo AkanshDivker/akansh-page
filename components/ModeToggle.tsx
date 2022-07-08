@@ -1,9 +1,9 @@
-import Button from '@mui/joy/IconButton';
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import Button from "@mui/joy/IconButton";
 import { useColorScheme } from "@mui/joy/styles";
 import type { NextPage } from "next";
 import React from "react";
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import LightModeIcon from '@mui/icons-material/LightMode';
 
 const ModeToggle: NextPage = () => {
   const { mode, setMode } = useColorScheme();
@@ -20,7 +20,8 @@ const ModeToggle: NextPage = () => {
   }
 
   return (
-    <Button role="menuitem"
+    <Button
+      role="menuitem"
       variant="soft"
       onClick={() => {
         if (mode === "light") {
