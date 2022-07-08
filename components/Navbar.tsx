@@ -82,7 +82,14 @@ const ToolsMenu: NextPage = () => {
 
 const Navbar: NextPage = () => {
   return (
-    <Box sx={{ minHeight: 190 }}>
+    <Box
+      sx={{
+        minHeight: 190,
+        justifyContent: "space-around",
+        flexWrap: "wrap",
+        flexDirection: "row",
+      }}
+    >
       <List
         role="menubar"
         row

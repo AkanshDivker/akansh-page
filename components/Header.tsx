@@ -16,8 +16,11 @@ const Header: NextPage = () => {
           display: "flex",
           margin: "0 auto",
           marginTop: "25px",
-          width: "70%",
-          justifyContent: "space-between",
+          width: "100%",
+          justifyContent: "space-around",
+          flexWrap: "wrap",
+          flexDirection: "row",
+          alignItems: "flex-start",
         }}
       >
         <Typography level="h3">
