@@ -1,3 +1,4 @@
+import { FormatAlignJustify } from "@mui/icons-material";
 import Box from "@mui/joy/Box";
 import Typography from "@mui/joy/Typography";
 import type { NextPage } from "next";
@@ -15,7 +16,7 @@ const Projects: NextPage = () => {
         marginTop: 5,
       }}
     >
-      <div id="projects"></div>
+      <div id="#projects" />
       <Typography
         level="h3"
         fontWeight="700"
@@ -25,7 +26,31 @@ const Projects: NextPage = () => {
       </Typography>
 
       <Box
-        sx={{ display: "grid", gap: 3, gridTemplateColumns: "repeat(3, 1fr)" }}
+        sx={{ display: "flex",
+              width: {
+                xl : "1120px",
+                lg : "1120px",
+                md : "800px",
+                sm : "400px",
+                xs : "400px"
+                      } ,
+              height: {
+                xl : "400px",
+                lg : "400px",
+                md : "600px",
+                sm : "1200px",
+                xs : "1200px"
+                      } ,
+              flexWrap: "wrap",
+              justifyContent : {
+                md :"space-between",
+                sm : "center",
+                xs : "center"
+              },
+              alignContent: "space-between",
+              marginBottom: "100px"
+
+        }}
       >
         <ProjectCard
           title="ATLAS"
