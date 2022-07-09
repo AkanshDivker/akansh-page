@@ -5,7 +5,9 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head></Head>
+        <Head>
+          <title>Akansh | Akansh Divker</title>
+        </Head>
         <body>
           {getInitColorSchemeScript()}
           <Main />
