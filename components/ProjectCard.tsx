@@ -51,7 +51,7 @@ const ProjectCard: NextPage<ProjectCardProps> = (props) => {
           <Box>
             {techList.map((tech) => (
               <Chip
-                variant="outlined"
+                variant="soft"
                 color="primary"
                 size="sm"
                 sx={{ pointerEvents: "none", marginRight: "10px" }}
