@@ -16,7 +16,7 @@ const Projects: NextPage = () => {
         marginTop: 5,
       }}
     >
-      <div id="#projects" />
+      <div id="projects" />
       <Typography
         level="h3"
         fontWeight="700"

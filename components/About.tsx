@@ -17,9 +17,28 @@ const About: NextPage = () => {
         marginTop: 3,
       }}
     >
-      <Typography level="display1">
+      <Typography level="display1" sx={{
+        display : "flex",
+        alignSelf:"center",
+        flexDirection : {
+          xl : "row",
+          lg : "row",
+          md : "row",
+          sm : "column",
+          xs : "column"
+        }
+      }}>
         {"Hi, I'm "}
-        <Typography level="display1" color="primary" textColor="primary">
+        <Typography level="display1" color="primary" textColor="primary" sx={{
+        alignSelf:"center",
+        marginLeft: {
+          xl : "20px",
+          lg : "20px",
+          md : "20px",
+          sm : "-30px",
+          xs : "-30px"
+        }
+        }}>
           Akansh.
         </Typography>
       </Typography>
@@ -35,6 +54,7 @@ const About: NextPage = () => {
           maxWidth: 500,
           wordBreak: "break-word",
           marginTop: 3,
+          paddingX : "15px"
         }}
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque

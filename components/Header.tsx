@@ -34,6 +34,9 @@ const Header: NextPage<HeaderProps> = (props) => {
             underline="none"
             variant="plain"
             href={url}
+            sx={{
+              paddingTop: "8px"
+            }}
           >
             {title}
           </Link>

@@ -100,7 +100,7 @@ const Navbar: NextPage = () => {
         }}
       >
         <ListItem role="none">
-          <ListItemButton role="menuitem" component="a" href="#">
+          <ListItemButton role="menuitem" component="a" href="#home">
             <Typography level="h6">Home</Typography>
           </ListItemButton>
         </ListItem>
