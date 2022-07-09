@@ -105,12 +105,12 @@ const Navbar: NextPage = () => {
           </ListItemButton>
         </ListItem>
         <ListItem role="none">
-          <ListItemButton role="menuitem" component="a" href="#">
+          <ListItemButton role="menuitem" component="a" href="#projects">
             <Typography level="h6">Projects</Typography>
           </ListItemButton>
         </ListItem>
         <ListItem role="none">
-          <ListItemButton role="menuitem" component="a" href="#">
+          <ListItemButton role="menuitem" component="a" href="#skills">
             <Typography level="h6">Skills</Typography>
           </ListItemButton>
         </ListItem>
