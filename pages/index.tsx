@@ -9,7 +9,7 @@ const Index: NextPage = () => {
   return (
     <React.Fragment>
       <CssVarsProvider theme={theme}>
-        <Header />
+        <Header title="Akansh" url="https://akansh.xyz" />
         <About />
       </CssVarsProvider>
     </React.Fragment>

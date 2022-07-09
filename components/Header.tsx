@@ -2,11 +2,15 @@ import Box from "@mui/joy/Box";
 import Link from "@mui/joy/Link";
 import Typography from "@mui/joy/Typography";
 import type { NextPage } from "next";
-import { header } from "../resources/data";
 import Navbar from "./Navbar";
 
-const Header: NextPage = () => {
-  const { title, url } = header;
+interface HeaderProps {
+  title: string;
+  url: string;
+}
+
+const Header: NextPage<HeaderProps> = (props) => {
+  const { title, url } = props;
 
   return (
     <header>
