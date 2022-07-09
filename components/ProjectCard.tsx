@@ -49,11 +49,12 @@ const ProjectCard: NextPage<ProjectCardProps> = (props) => {
             </Link>
           </Typography>
           <Box>
-            {techList.map((tech) => (
+            {techList.map((tech: string) => (
               <Chip
                 variant="soft"
                 color="primary"
                 size="sm"
+                key={tech}
                 sx={{ pointerEvents: "none", marginRight: "10px" }}
               >
                 {tech}
