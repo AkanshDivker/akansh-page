@@ -1,11 +1,10 @@
-import * as React from "react";
-import type { NextPage } from "next";
-import AspectRatio from "@mui/joy/AspectRatio";
 import Box from "@mui/joy/Box";
-import Link from "@mui/joy/Link";
 import Card from "@mui/joy/Card";
 import Chip from "@mui/joy/Chip";
+import Link from "@mui/joy/Link";
 import Typography from "@mui/joy/Typography";
+import type { NextPage } from "next";
+import * as React from "react";
 
 interface ProjectCardProps {
   title: string;

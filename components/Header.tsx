@@ -35,7 +35,7 @@ const Header: NextPage<HeaderProps> = (props) => {
             variant="plain"
             href={url}
             sx={{
-              paddingTop: "8px"
+              paddingTop: "8px",
             }}
           >
             {title}
