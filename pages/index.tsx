@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
 import About from "../components/About";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
 import theme from "../components/Theme";
@@ -17,6 +18,7 @@ const Index: NextPage = () => {
         <Header title="Akansh" url="https://akansh.xyz" />
         <About />
         <Projects />
+        <Footer />
       </CssVarsProvider>
     </React.Fragment>
   );
