@@ -8,11 +8,20 @@ import Header from "../components/Header";
 import Projects from "../components/Projects";
 import theme from "../components/Theme";
 
+const description =
+  "Welcome to the personal website for Akansh Divker. Here you can find out a bit about me, my personal projects, and contact details.";
+const title = "Akansh | Akansh Divker";
+
 const Index: NextPage = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Akansh | Akansh Divker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} key="ogtitle" />
+        <meta property="og:description" content={description} key="ogdesc" />
+        <title>{title}</title>
       </Head>
       <CssVarsProvider theme={theme}>
         <Header title="Akansh" url="https://akansh.xyz" />
