@@ -56,7 +56,7 @@ const ToolsMenu: NextPage = () => {
           >
             <List
               role="menu"
-              aria-label="About"
+              aria-label="Tools"
               sx={{
                 "--List-radius": "8px",
                 "--List-padding": "4px",
@@ -100,8 +100,8 @@ const Navbar: NextPage = () => {
         }}
       >
         <ListItem role="none">
-          <ListItemButton role="menuitem" component="a" href="#home">
-            <Typography level="h6">Home</Typography>
+          <ListItemButton role="menuitem" component="a" href="#about">
+            <Typography level="h6">About</Typography>
           </ListItemButton>
         </ListItem>
         <ListItem role="none">
