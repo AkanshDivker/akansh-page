@@ -4,7 +4,6 @@ const theme = extendTheme({
   colorSchemes: {
     light: {
       palette: {
-        // affects all Joy components that has `color="primary"` prop.
         primary: {
           50: "#FAF9FC",
           100: "#EFECF4",
@@ -81,7 +80,6 @@ const theme = extendTheme({
     },
     dark: {
       palette: {
-        // affects all Joy components that has `color="primary"` prop.
         primary: {
           50: "#FAF9FC",
           100: "#EFECF4",
