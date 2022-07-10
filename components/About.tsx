@@ -3,6 +3,7 @@ import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Box from "@mui/joy/Box";
 import IconButton from "@mui/joy/IconButton";
+import Link from "@mui/joy/Link";
 import Typography from "@mui/joy/Typography";
 import type { NextPage } from "next";
 
@@ -17,6 +18,7 @@ const About: NextPage = () => {
         marginTop: 3,
       }}
     >
+      <div id="about" />
       <Typography
         level="display1"
         sx={{
@@ -59,16 +61,28 @@ const About: NextPage = () => {
         level="body1"
         sx={{
           alignItems: "flex-start",
-          maxWidth: 500,
+          maxWidth: 650,
           wordBreak: "break-word",
           marginTop: 3,
           paddingX: "15px",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-        vehicula arcu id nulla blandit, at luctus erat dictum. Phasellus dapibus
-        sapien ut lacus congue, ac hendrerit diam aliquam. Sed molestie dictum
-        neque eu molestie. Nulla rutrum ultricies nisi non tincidunt.
+        Originally from Toronto &#x1F4CD;&#x1F1E8;&#x1F1E6;, I recently
+        graduated from{" "}
+        <Link target="_blank" rel="noopener" href="https://korea.edu/">
+          Korea University
+        </Link>{" "}
+        &#x1F393;&#x1F1F0;&#x1F1F7; with my Bachelor of Science in Computer
+        Science and Engineering &#x1F4BB;. Previously, I have conducted security
+        research at the{" "}
+        <Link target="_blank" rel="noopener" href="https://ccs.korea.ac.kr/">
+          Computer {" & "} Communication Security Lab
+        </Link>{" "}
+        &#x1F4A1;. Having a strong passion for computer and software security,
+        most of my projects revolve around providing better security tooling,
+        insight, or vulnerability management. In addition, I enjoy skiing
+        &#x26F7;, photography &#x1F4F7;, travelling &#x2708;, and dabbling in
+        game development &#x1F3AE; in my free time.
       </Typography>
 
       <Box
