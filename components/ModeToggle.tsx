@@ -23,6 +23,7 @@ const ModeToggle: NextPage = () => {
     <Button
       role="menuitem"
       variant="soft"
+      aria-label="Mode"
       onClick={() => {
         if (mode === "light") {
           setMode("dark");

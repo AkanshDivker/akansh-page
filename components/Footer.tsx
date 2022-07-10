@@ -16,7 +16,7 @@ const Footer: NextPage = () => {
       }}
     >
       <Typography level="h6" sx={{ fontSize: "16px" }}>
-        <Link>Created by Akansh Divker</Link>
+        <Link href="https://akansh.xyz/">Created by Akansh Divker</Link>
       </Typography>
     </Box>
   );

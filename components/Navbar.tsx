@@ -33,6 +33,7 @@ const ToolsMenu: NextPage = () => {
       <Box onMouseLeave={() => setAnchorEl(undefined)}>
         <ListItemButton
           aria-haspopup
+          aria-label="Tools"
           aria-expanded={open ? "true" : "false"}
           role="menuitem"
           onFocus={onFocus}
@@ -63,12 +64,22 @@ const ToolsMenu: NextPage = () => {
               }}
             >
               <ListItem role="none">
-                <ListItemButton role="menuitem" href="#" disabled>
+                <ListItemButton
+                  role="menuitem"
+                  aria-label="ATLAS"
+                  href="#"
+                  disabled
+                >
                   <ListItemContent>ATLAS</ListItemContent>
                 </ListItemButton>
               </ListItem>
               <ListItem role="none">
-                <ListItemButton role="menuitem" href="#" disabled>
+                <ListItemButton
+                  role="menuitem"
+                  aria-label="PolyEngine"
+                  href="#"
+                  disabled
+                >
                   PolyEngine
                 </ListItemButton>
               </ListItem>
@@ -100,12 +111,22 @@ const Navbar: NextPage = () => {
         }}
       >
         <ListItem role="none">
-          <ListItemButton role="menuitem" component="a" href="#about">
+          <ListItemButton
+            role="menuitem"
+            aria-label="About"
+            component="a"
+            href="#about"
+          >
             <Typography level="h6">About</Typography>
           </ListItemButton>
         </ListItem>
         <ListItem role="none">
-          <ListItemButton role="menuitem" component="a" href="#projects">
+          <ListItemButton
+            role="menuitem"
+            aria-label="Projects"
+            component="a"
+            href="#projects"
+          >
             <Typography level="h6">Projects</Typography>
           </ListItemButton>
         </ListItem>

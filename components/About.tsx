@@ -97,6 +97,7 @@ const About: NextPage = () => {
         <IconButton
           component="a"
           variant="plain"
+          aria-label="Resume"
           target="_blank"
           rel="noopener"
           href="/resume.pdf"
@@ -106,6 +107,7 @@ const About: NextPage = () => {
         <IconButton
           component="a"
           variant="plain"
+          aria-label="LinkedIn"
           target="_blank"
           rel="noopener"
           href="https://www.linkedin.com/in/akanshdivker/"
@@ -115,6 +117,7 @@ const About: NextPage = () => {
         <IconButton
           component="a"
           variant="plain"
+          aria-label="GitHub"
           target="_blank"
           rel="noopener"
           href="https://github.com/AkanshDivker"
