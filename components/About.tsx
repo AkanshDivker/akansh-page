@@ -67,12 +67,11 @@ const About: NextPage = () => {
           paddingX: "15px",
         }}
       >
-        Originally from Toronto &#x1F4CD;&#x1F1E8;&#x1F1E6;, I recently
-        graduated from{" "}
+        Originally from Toronto &#x1F4CD;&#x1F1E8;&#x1F1E6;, I studied at{" "}
         <Link target="_blank" rel="noopener" href="https://korea.edu/">
           Korea University
         </Link>{" "}
-        &#x1F393;&#x1F1F0;&#x1F1F7; with my Bachelor of Science in Computer
+        &#x1F393;&#x1F1F0;&#x1F1F7; majoring in Computer
         Science and Engineering &#x1F4BB;. Previously, I have conducted security
         research at the{" "}
         <Link target="_blank" rel="noopener" href="https://ccs.korea.ac.kr/">
