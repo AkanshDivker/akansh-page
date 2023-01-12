@@ -81,7 +81,7 @@ const About: NextPage = () => {
         most of my projects revolve around providing better security tooling,
         insight, or vulnerability management. In addition, I enjoy skiing
         &#x26F7;, photography &#x1F4F7;, travelling &#x2708;, and dabbling in
-        game development &#x1F3AE; in my free time.
+        game development &#x1F3AE; in my free time. I also have two pet rabbits &#x1F430;.
       </Typography>
 
       <Box
