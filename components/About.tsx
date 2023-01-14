@@ -79,7 +79,7 @@ const About: NextPage = () => {
         </Link>{" "}
         &#x1F4A1;. Having a strong passion for computer and software security,
         most of my projects revolve around providing better security tooling,
-        insight, or vulnerability management. I'm eager to learn more about the security industry and get involved by contributing and applying my current skills. 
+        insight, or vulnerability management. I'm eager to learn more about the security industry and get involved by contributing and applying my current skills.
         In addition, I enjoy skiing &#x26F7;, photography &#x1F4F7;, travelling &#x2708;, and dabbling in
         game development &#x1F3AE; in my free time. I also have two pet rabbits &#x1F430;.
       </Typography>
