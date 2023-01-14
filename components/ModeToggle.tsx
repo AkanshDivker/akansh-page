@@ -16,22 +16,17 @@ const ModeToggle: NextPage = () => {
   }, []);
 
   if (!mounted) {
+    // return return <Button variant="outlined" color="neutral" sx={{ width: 120 }} />
     return null;
   }
 
   return (
     <Button
-      role="menuitem"
+      role='menuitem'
       variant="soft"
-      onClick={() => {
-        if (mode === "light") {
-          setMode("dark");
-        } else {
-          setMode("light");
-        }
-      }}
+      onClick={() => setMode(mode === "dark" ? "light" : "dark")}
     >
-      {mode === "light" ? <DarkModeIcon /> : <LightModeIcon />}
+      {mode === "dark" ? <DarkModeIcon /> : <LightModeIcon />}
     </Button>
   );
 };

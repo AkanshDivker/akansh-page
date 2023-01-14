@@ -23,7 +23,12 @@ const Index: NextPage = () => {
         <meta property="og:description" content={description} key="ogdesc" />
         <title>{title}</title>
       </Head>
-      <CssVarsProvider theme={theme}>
+      <CssVarsProvider
+        defaultMode="system"
+        theme={theme}
+        modeStorageKey="akansh-page_identify-system-mode"
+        disableNestedContext
+      >
         <Header title="Akansh" url="https://akansh.xyz" />
         <About />
         <Projects />
