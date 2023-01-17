@@ -29,7 +29,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff" />
         </Head>
         <body>
-          {getInitColorSchemeScript({ defaultMode: "system" })}
+          {getInitColorSchemeScript({ defaultMode: "light" })}
           <Main />
           <NextScript />
         </body>

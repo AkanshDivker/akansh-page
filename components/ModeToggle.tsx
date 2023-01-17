@@ -24,7 +24,8 @@ const ModeToggle: NextPage = () => {
     <Button
       role='menuitem'
       variant="soft"
-      onClick={() => setMode(mode === "dark" ? "light" : "dark")}
+    // TO-DO: Fix dark mode issue
+    //onClick={() => setMode(mode === "dark" ? "light" : "dark")}
     >
       {mode === "dark" ? <DarkModeIcon /> : <LightModeIcon />}
     </Button>

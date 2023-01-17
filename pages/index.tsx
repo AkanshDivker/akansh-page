@@ -24,7 +24,7 @@ const Index: NextPage = () => {
         <title>{title}</title>
       </Head>
       <CssVarsProvider
-        defaultMode="system"
+        defaultMode="light"
         theme={theme}
         modeStorageKey="akansh-page_identify-system-mode"
         disableNestedContext
