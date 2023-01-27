@@ -53,25 +53,28 @@ const Projects: NextPage = () => {
       >
         <ProjectCard
           title="ATLAS"
-          url="#"
+          url="https://atlas.akansh.xyz"
           description="An automated system for analyzing binary files and determining common threat parameters, such as the malware family and potentially malicious URLs."
-          techList={["Python", "TypeScript", "gRPC", "GCP"]}
+          techList={["Python", "TypeScript", "Next.js", "MongoDB"]}
           chipColor="primary"
         />
+
+        <ProjectCard
+          title="Identity"
+          url="#"
+          description="A SaaS prototype app to provide a solution to secure and universal passwordless authentication on the web."
+          techList={["JavaScript", "Node.js", "React.js", "Kubernetes"]}
+          chipColor="primary"
+        />
+
         <ProjectCard
           title="PolyEngine"
           url="https://github.com/AkanshDivker/polyengine"
           description="A Python application to apply code encryption, obfuscation, and polymorphism on compile time for C/C++ programs."
-          techList={["Python"]}
+          techList={["Python", "C", "C++", "ctags"]}
           chipColor="primary"
         />
-        <ProjectCard
-          title="Udacity Security Engineer"
-          url="#"
-          description="My completed course projects covering Security Engineering fundementals, along with System, Infrastructure, and Application Security."
-          techList={["Python"]}
-          chipColor="primary"
-        />
+
         <ProjectCard
           title="GitScrape"
           url="https://github.com/AkanshDivker/GitScrape"
@@ -79,6 +82,7 @@ const Projects: NextPage = () => {
           techList={["Python", "Git"]}
           chipColor="primary"
         />
+
         <ProjectCard
           title="Simple-ECS"
           url="https://github.com/AkanshDivker/Simple-ECS"
@@ -86,11 +90,12 @@ const Projects: NextPage = () => {
           techList={["C#", "Unity", "DOTS", "ECS"]}
           chipColor="primary"
         />
+        
         <ProjectCard
           title="Akansh-Page"
           url="https://github.com/AkanshDivker/akansh-page"
           description="A simple and elegant personal portfolio website. This project contains the source code for my personal website, akansh.xyz."
-          techList={["TypeScript", "HTML", "CSS", "NextJS"]}
+          techList={["TypeScript", "HTML", "CSS", "Next.js"]}
           chipColor="primary"
         />
       </Box>
