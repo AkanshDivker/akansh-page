@@ -11,10 +11,11 @@ interface ProjectCardProps {
   description: string;
   url: string;
   techList: Array<string>;
+  chipColor: "primary" | "neutral" | "danger" | "info" | "success" | "warning" | undefined;
 }
 
 const ProjectCard: NextPage<ProjectCardProps> = (props) => {
-  const { title, description, url, techList } = props;
+  const { title, description, url, techList, chipColor } = props;
 
   return (
     <Card
@@ -51,7 +52,7 @@ const ProjectCard: NextPage<ProjectCardProps> = (props) => {
             {techList.map((tech: string) => (
               <Chip
                 variant="soft"
-                color="primary"
+                color={chipColor}
                 size="sm"
                 key={tech}
                 sx={{ pointerEvents: "none", marginRight: "10px" }}

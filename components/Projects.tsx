@@ -56,36 +56,42 @@ const Projects: NextPage = () => {
           url="#"
           description="An automated system for analyzing binary files and determining common threat parameters, such as the malware family and potentially malicious URLs."
           techList={["Python", "TypeScript", "gRPC", "GCP"]}
+          chipColor="primary"
         />
         <ProjectCard
           title="PolyEngine"
           url="https://github.com/AkanshDivker/polyengine"
           description="A Python application to apply code encryption, obfuscation, and polymorphism on compile time for C/C++ programs."
           techList={["Python"]}
+          chipColor="primary"
         />
         <ProjectCard
           title="Udacity Security Engineer"
           url="#"
           description="My completed course projects covering Security Engineering fundementals, along with System, Infrastructure, and Application Security."
           techList={["Python"]}
+          chipColor="primary"
         />
         <ProjectCard
           title="GitScrape"
           url="https://github.com/AkanshDivker/GitScrape"
           description="A flexible and efficient Python program to query for GitHub repositories, scrape relevant data, and then clone them for later use."
           techList={["Python", "Git"]}
+          chipColor="primary"
         />
         <ProjectCard
           title="Simple-ECS"
           url="https://github.com/AkanshDivker/Simple-ECS"
           description="An example using the core features of the Entity Component System (ECS) and the Data Oriented Tech Stack (DOTS) in Unity, inspired by Roll-a-ball."
           techList={["C#", "Unity", "DOTS", "ECS"]}
+          chipColor="primary"
         />
         <ProjectCard
           title="Akansh-Page"
           url="https://github.com/AkanshDivker/akansh-page"
           description="A simple and elegant personal portfolio website. This project contains the source code for my personal website, akansh.xyz."
           techList={["TypeScript", "HTML", "CSS", "NextJS"]}
+          chipColor="primary"
         />
       </Box>
     </Box>
