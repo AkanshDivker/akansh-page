@@ -45,11 +45,11 @@ const OpenSource: NextPage = () => {
             xs: "400px",
           },
           height: {
-            xl: "400px",
-            lg: "400px",
-            md: "600px",
-            sm: "1200px",
-            xs: "1200px",
+            xl: "320px",
+            lg: "320px",
+            md: "480px",
+            sm: "500px",
+            xs: "500px",
           },
           flexWrap: "wrap",
           justifyContent: {
