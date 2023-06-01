@@ -76,6 +76,13 @@ const OpenSource: NextPage = () => {
           chipColor="danger"
         />
         <ProjectCard
+          title="lk (littlekernel)"
+          url="https://github.com/littlekernel/lk/pull/365/commits/9b1cd1020a2f1c1fa0dc0c80bb1071b2e45e6009"
+          description="Applied patch for moderate severity vulnerability (CVE-2004-0230)."
+          techList={["Moderate", "CWE-331", "Security Vulnerabilty Fix"]}
+          chipColor="warning"
+        />
+        <ProjectCard
           title="WebAuthn"
           url="https://github.com/flutter-institute/webauthn/pull/2/commits/767f80f5bf0357ca91a951b2eb4fbf2f0c6885cc"
           description="Fixed fatal dependency error in Flutter WebAuthn codebase in Dart."
