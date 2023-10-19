@@ -15,7 +15,7 @@ const Footer: NextPage = () => {
         marginBottom: "30px",
       }}
     >
-      <Typography level="h6" sx={{ fontSize: "16px" }}>
+      <Typography level="title-sm" sx={{ fontSize: "16px" }}>
         <Link>Created by Akansh Divker</Link>
       </Typography>
     </Box>

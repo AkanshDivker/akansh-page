@@ -20,7 +20,7 @@ const About: NextPage = () => {
     >
       <div id="about" />
       <Typography
-        level="display1"
+        level="h1"
         sx={{
           display: "flex",
           alignSelf: "center",
@@ -35,7 +35,7 @@ const About: NextPage = () => {
       >
         {"Hi, I'm"}
         <Typography
-          level="display1"
+          level="h1"
           color="primary"
           textColor="primary"
           sx={{
@@ -58,7 +58,7 @@ const About: NextPage = () => {
       </Typography>
 
       <Typography
-        level="body1"
+        level="body-lg"
         sx={{
           alignItems: "flex-start",
           maxWidth: 650,

@@ -6,15 +6,6 @@ import ProjectCard from "./ProjectCard";
 import Sheet from '@mui/joy/Sheet';
 import { styled } from '@mui/joy/styles';
 
-
-const Item = styled(Sheet)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.vars.palette.text.tertiary,
-  maxWidth: '700px',
-}));
-
 const OpenSource: NextPage = () => {
   return (
     <Box
@@ -87,7 +78,7 @@ const OpenSource: NextPage = () => {
           url="https://github.com/flutter-institute/webauthn/pull/2/commits/767f80f5bf0357ca91a951b2eb4fbf2f0c6885cc"
           description="Fixed fatal dependency error in Flutter WebAuthn codebase in Dart."
           techList={["Fatal Error", "Bug Fix"]}
-          chipColor="info"
+          chipColor="neutral"
         />
       </Box>
     </Box>

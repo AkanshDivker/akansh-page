@@ -11,7 +11,7 @@ interface ProjectCardProps {
   description: string;
   url: string;
   techList: Array<string>;
-  chipColor: "primary" | "neutral" | "danger" | "info" | "success" | "warning" | undefined;
+  chipColor: "primary" | "neutral" | "danger" | "neutral" | "success" | "warning" | undefined;
 }
 
 const ProjectCard: NextPage<ProjectCardProps> = (props) => {
@@ -20,7 +20,7 @@ const ProjectCard: NextPage<ProjectCardProps> = (props) => {
   return (
     <Card
       variant="outlined"
-      row
+      orientation="horizontal"
       sx={{
         minWidth: "320px",
         maxWidth: "320px",

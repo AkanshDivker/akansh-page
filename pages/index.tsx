@@ -8,6 +8,7 @@ import Header from "../components/Header";
 import OpenSource from "../components/OpenSource";
 import Projects from "../components/Projects";
 import theme from "../components/Theme";
+import CssBaseline from "@mui/joy/CssBaseline";
 
 const description =
   "Welcome to the personal website for Akansh Divker. Here you can find out a bit about me, my personal projects, and contact details.";
@@ -16,6 +17,7 @@ const title = "Akansh | Akansh Divker";
 const Index: NextPage = () => {
   return (
     <React.Fragment>
+      <CssBaseline />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />

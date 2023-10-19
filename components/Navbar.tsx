@@ -41,7 +41,7 @@ const ToolsMenu: NextPage = () => {
             ...(open && theme.variants.plainHover.neutral),
           })}
         >
-          <Typography level="h6">Tools</Typography>
+          <Typography level="title-md">Tools</Typography>
           <KeyboardArrowDown />
         </ListItemButton>
         <PopperUnstyled
@@ -92,7 +92,7 @@ const Navbar: NextPage = () => {
     >
       <List
         role="menubar"
-        row
+        orientation="horizontal"
         sx={{
           "--List-radius": "8px",
           "--List-padding": "4px",
@@ -101,12 +101,12 @@ const Navbar: NextPage = () => {
       >
         <ListItem role="none">
           <ListItemButton role="menuitem" component="a" href="#about">
-            <Typography level="h6">About</Typography>
+            <Typography level="title-md">About</Typography>
           </ListItemButton>
         </ListItem>
         <ListItem role="none">
           <ListItemButton role="menuitem" component="a" href="#projects">
-            <Typography level="h6">Projects</Typography>
+            <Typography level="title-md">Projects</Typography>
           </ListItemButton>
         </ListItem>
         <ListItem role="none">
