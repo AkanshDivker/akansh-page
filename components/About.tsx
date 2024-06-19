@@ -54,7 +54,7 @@ const About: NextPage = () => {
       </Typography>
 
       <Typography level="h3" fontWeight="700" sx={{ marginTop: 3 }}>
-        A Security Engineer.
+        I like building things.
       </Typography>
 
       <Typography
